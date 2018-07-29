@@ -18,7 +18,7 @@ describe('ScoreComponent should', () => {
   let el: HTMLElement;
 
   beforeEach(asynctest(() => {
-    TestBed.configureTestingModule({
+    return TestBed.configureTestingModule({
       declarations: [ScoreComponent]
     })
       .compileComponents();
