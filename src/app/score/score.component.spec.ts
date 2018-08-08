@@ -1,6 +1,6 @@
+import { DebugElement } from '@angular/core';
 import { async as asynctest, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
 
 import { ScoreComponent } from './score.component';
 
