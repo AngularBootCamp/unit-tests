@@ -10,6 +10,6 @@ export class AppComponent {
   greeting: string;
 
   constructor(hello: HelloService) {
-    this.greeting = hello.calculateHello('world');
+    this.greeting = hello.calculateHello('Hello');
   }
 }
