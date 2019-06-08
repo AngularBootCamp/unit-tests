@@ -3,7 +3,6 @@ import { HelloService } from './hello.service';
 // We don't need Angular testing support for this simple service
 
 describe('HelloService', () => {
-
   let service: HelloService;
 
   beforeEach(() => {
