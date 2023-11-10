@@ -4,7 +4,8 @@ import { HelloService } from './hello.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
+  standalone: true
 })
 export class AppComponent {
   greeting: string;
